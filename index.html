@@ -1,39 +1,58 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>exercise2</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Form</title>
 </head>
 <body>
-	<header>
-		<div>logo img here</div>
-		<div>Email okay address here</div>
-		<div class="clear"></div>
-	</header>
-	<nav>
-		<ul>
-		   <li><a href="#">First menu</a></li>
-           <li><a href="#">Second menu</a></li>
-		   <li><a href="#">Third menu</a></li>
-		   <li><a href="#">forth menu</a></li>
-		   <div class="clear"></div>		   		
-	    </ul>
-    </nav>
-    <section>
-    	<div>
-    		Left go brr
-    	</div>
-    	<div>Right go brr
-    	</div>
-    	<div class="clear">
-    </section>
-    <footer>
-    	footer er er er er er er
-    </footer>
+	<STYLE>A {text-decoration: none;} </STYLE>
+	<form> 
+		first name:<br>
+		<input type="text" name="firstname" vlaue="first"> <br>
+		Last name:<br>
+		<input type="text" name="lastname"><br>Address:<br>
+		<input type="text" name="address"><br>
+		Email:<br>
+		<input type="text" name="Email"><br>
+		Password:<br>
+		<input type="Password" name="psw"><br>
+		<form action="/action_page.php">
+			Cource compeleted:<br>
+			<input type="checkbox" name="skills1" value="Database">Database<br>
+			<input type="checkbox" name="skills2" value="web development">web development<br>
+			<input type="checkbox" name="skills3" value="Computer System">Computer System<br>
 
+		<form action="/action_page.php">
+			Date of birth:<br>
+			<input type="date" name="bday"><br>
+			Gender:<br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="female">female <br>
+		<input type="radio" name="gender" value="other"> Other<br>
+	    Group color:
+			<input type="color" name="Character"> <br>
+		Registration number(33-100):
+			<input type="number" name="quantity" min="33" max="100"><br>
+		<form action="/action_page.php">
+				Select cource:
+			<select name="cource" style="width:200px">
+				<option value="cource">Software engeenering</option>
+				<option value="cource">Networking</option> 	
+				</select>
+				<br><br>
+				<form action="action_page.php"
+				>
+				<a href="sas">
+				State your purpose.</a>
 
+				<br>
+				<textarea name="message" row="8" cols="50">Write here.</textarea>
+				<br>
+				<input type="submit" >
+				<input type="reset" name="reset" value="reset">
 
+	
 
-
+	</form>
 </body>
 </html>
